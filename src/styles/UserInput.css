@@ -1,0 +1,42 @@
+div{
+    text-align: center;
+}
+form{
+    border: 1px solid rgb(157, 154, 154);
+   max-width: 500px;
+    text-align: left;
+   display: inline-block;
+    background:  linear-gradient(to right, rgba(195,180, 180, 0), rgb(68, 113, 165));
+}
+.input-group{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+input{
+    border-style:none ;
+    border-bottom:1px solid black ;
+    padding: 5px;
+    margin-top: 10px;
+}
+label{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
+button{
+padding: 10px;
+margin-bottom: 5px;
+border-style:none ;
+background:#4d4f4f;
+color: white;
+cursor: pointer;
+border-radius: 2px;
+}
+button:hover{
+    background-color: rgb(98, 124, 242);
+}

@@ -1,0 +1,14 @@
+.header{
+    text-align: center;
+    margin: 10px 10px;
+}
+img{
+    width: 150px;
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
